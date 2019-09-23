@@ -11,13 +11,13 @@ body {
   line-height: 1.6em;
   margin: 0;
 }
-#mainHeader {
+#mainHeaderCss {
   text-align: center;
   background-color: #222;
   color: white;
   padding: 10px;
 }
-#mainFooter {
+#mainFooterCss {
   text-align: center;
   font-size: 18px;
   background-color: #222;
