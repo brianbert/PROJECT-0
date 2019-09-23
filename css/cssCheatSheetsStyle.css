@@ -11,6 +11,24 @@ body {
   line-height: 1.6em;
   margin: 0;
 }
+#mainHeader {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 10px;
+}
+#mainFooter {
+  text-align: center;
+  font-size: 18px;
+  background-color: #222;
+  color: white;
+  padding: 10px;
+}
+.container {
+  width: 500px;
+  margin: auto;
+}
 .box-1 {
   background-color: #333;
+  color: #fff;
 }
