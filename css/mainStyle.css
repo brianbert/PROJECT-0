@@ -1,24 +1,67 @@
+:root {
+  --clr-primary: rgb(54, 112, 199);
+  --clr-light: #f4f4f4;
+  --clr-dark: #333;
+  --clr-warning: rgb(99, 36, 36);
+}
+*,
+*::before,
+*::after {
+  font-family: inherit;
+  box-sizing: border-box;
+}
 * {
   margin: 0;
   padding: 0;
+  letter-spacing: 2px;
 }
 body {
-  color: #333;
-  font: normal 16px Arial, Helvetica, sans-serif;
-  background-color: #e0e0e0;
   margin: 0;
-  line-height: 1.6em;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  background-color: var(--clr-primary);
+  color: var(--clr-light);
 }
 #mainHeader {
   text-align: center;
-  background-color: #222;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--clr-light);
   padding: 10px;
 }
 #mainFooter {
   text-align: center;
   font-size: 18px;
-  background-color: #222;
-  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--clr-light);
   padding: 10px;
+  padding-bottom: 5%;
+}
+#mainHeaderHtml {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--clr-light);
+  padding: 10px;
+}
+#mainFooterHtml {
+  text-align: center;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--clr-light);
+  padding: 10px;
+  padding-bottom: 5%;
+}
+#mainHeaderCss {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--clr-light);
+  padding: 10px;
+}
+#mainFooterCss {
+  text-align: center;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--clr-light);
+  padding: 10px;
+  padding-bottom: 5%;
 }
