@@ -3,18 +3,16 @@ body {
   grid:
     "header header header header" auto
     "........ lists active ........" auto /
-    1fr minmax(200px, 600px)
-    minmax(450px, 1000px) 1fr;
+    1fr minmax(100px, 400px)
+    minmax(250px, 500px) 1fr;
 }
 .title-nav {
   grid-area: header;
 }
 
 .all-tasks {
-  padding: 15% 15% 15% 15%;
   grid-area: lists;
 }
 .todo-list {
-  padding: 10% 15% 10% 15%;
   grid-area: active;
 }
