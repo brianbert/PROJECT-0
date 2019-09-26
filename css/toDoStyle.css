@@ -1,36 +1,4 @@
-:root {
-  --clr-primary: rgb(54, 112, 199);
-  --clr-light: #f4f4f4;
-  --clr-dark: #333;
-  --clr-warning: rgb(99, 36, 36);
-}
-*,
-*::before,
-*::after {
-  font-family: inherit;
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
-/*NAV BAR*/
-
-#mainHeader {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 10px;
-}
-
-/*NAV BAR*/
 body {
-  margin: 0;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 300;
-  font-size: 1.5em;
-  background-color: var(--clr-primary);
-  color: var(--clr-light);
   display: grid;
   grid:
     "header header header header" auto
@@ -43,8 +11,10 @@ body {
 }
 
 .all-tasks {
+  padding: 15% 15% 15% 15%;
   grid-area: lists;
 }
 .todo-list {
+  padding: 10% 15% 10% 15%;
   grid-area: active;
 }
