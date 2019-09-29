@@ -11,16 +11,21 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap"
     />
-    <link rel="stylesheet" href="../css/toDoStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    
     <link rel="stylesheet" href="../css/mainStyle.css" />
   </head>
-  <body class="bodycolor-to-do">
-    <span class="title-nav">
-      <header id="mainHeader">
-        <h1>PROJECT 0</h1>
-        <h2>TO-DO</h2>
-        <h6>VERSION 19D26M9-0.9.24</h6>
+  <body>
+    
+      <header>
+        <h1 class="logo">PROJECT 0</h1>
+        <h2 class="logo">TO-DO</h2>
+        
         <!-- NAVIGATION MENU STARTS------------------------------------------------------------->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
         <nav>
           <ul>
             <li><a href="../index.html">HUB</a></li>
@@ -32,9 +37,12 @@
             <li><a href="#">NOTEBOOKS</a></li>
           </ul>
         </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
         <!-- NAVIGATION MENU ENDS------------------------------------------------------------>
       </header>
-    </span>
+    <section class="contenido">
     <span class="all-tasks">
       <div class="all-tasks">
         <h2 class="task-list-title">My List</h2>
@@ -104,5 +112,11 @@
         </div>
       </div>
     </div>
+  </section>
+    <footer id="footer">
+      <p>Copyright &copy; 2019 PROJECT-0</p>
+      <br />
+      <h6>VERSION 19D28M9-0.10.25</h6>
+    </footer>
   </body>
 </html>

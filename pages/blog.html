@@ -11,15 +11,18 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/mainStyle.css" />
   </head>
-  <body class="bodycolor-blog">
-    <div class="frosted">
-      <header id="mainHeader">
-        <h1>PROJECT 0</h1>
-
-        <h2>BLOG</h2>
+  <body>    
+      <header>
+        <h1 class="logo">PROJECT 0</h1>
+        <h2 class="logo">BLOG</h2>
         <!-- NAVIGATION MENU STARTS------------------------------------------------------------->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
         <nav>
           <ul>
             <li><a href="../index.html">HUB</a></li>
@@ -31,10 +34,13 @@
             <li><a href="#">NOTEBOOKS</a></li>
           </ul>
         </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
         <!-- NAVIGATION MENU ENDS------------------------------------------------------------>
       </header>
-    </div>
-    <section>
+    
+    <section class="contenido">
       <article class="post">
         <h3>Blog Post One</h3>
         <small>Posted by Brian September 22</small>
@@ -136,12 +142,10 @@
         </ul>
       </nav>
     </aside>
-    <div class="frosted">
-      <footer id="mainFooter">
-        <p>Copyright &copy; 2019 PROJECT-0</p>
-        <br />
-        <h6>VERSION 19D26M9-0.9.24</h6>
-      </footer>
-    </div>
+    <footer id="footer">
+      <p>Copyright &copy; 2019 PROJECT-0</p>
+      <br />
+      <h6>VERSION 19D28M9-0.10.25</h6>
+    </footer>
   </body>
 </html>
