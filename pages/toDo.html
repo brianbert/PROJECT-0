@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>PROJECT 0 - TO-DO</title>
+    <link rel="shortcut icon" type="image/png" href="../images/fav-icon.png" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap"
@@ -15,108 +16,107 @@
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
-    
+
     <link rel="stylesheet" href="../css/mainStyle.css" />
   </head>
   <body>
-    
-      <header>
-        <h1 class="logo">PROJECT 0</h1>
-        <h2 class="logo">TO-DO</h2>
-        
-        <!-- NAVIGATION MENU STARTS------------------------------------------------------------->
-        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-        <nav>
-          <ul>
-            <li><a href="../index.html">HUB</a></li>
-            <li><a href="htmlCheatSheets.html">HTML CHEAT SHEET</a></li>
-            <li><a href="cssCheatSheets.html">CSS CHEAT SHEET</a></li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="toDo.html">TO-DO</a></li>
-            <li><a href="#">INVENTORY</a></li>
-            <li><a href="#">NOTEBOOKS</a></li>
-          </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-        </label>
-        <!-- NAVIGATION MENU ENDS------------------------------------------------------------>
-      </header>
-    <section class="contenido">
-    <span class="all-tasks">
-      <div class="all-tasks">
-        <h2 class="task-list-title">My List</h2>
-        <ul class="task-list">
-          <li class="active-list">Brian Bert</li>
-          <li>Money</li>
-          <li>Study</li>
-          <li>Work</li>
+    <header>
+      <h1 class="logo">PROJECT 0</h1>
+      <h2 class="logo">TO-DO</h2>
+
+      <!-- NAVIGATION MENU STARTS------------------------------------------------------------->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="../index.html">HUB</a></li>
+          <li><a href="htmlCheatSheets.html">HTML CHEAT SHEET</a></li>
+          <li><a href="cssCheatSheets.html">CSS CHEAT SHEET</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="toDo.html">TO-DO</a></li>
+          <li><a href="#">INVENTORY</a></li>
+          <li><a href="#">NOTEBOOKS</a></li>
         </ul>
-        <form action="">
-          <input
-            type="text"
-            class="new list"
-            placeholder="new list name"
-            aria-label="new list name"
-          />
-          <button class="btn list" aria-label="create new list">+</button>
-        </form>
-      </div>
-    </span>
-    <div class="todo-list">
-      <div class="todo-header">
-        <h2 class="list-title">Brian Bert</h2>
-        <p class="task-count">3 task remaining</p>
-      </div>
-      <div class="todo-body">
-        <div class="tasks">
-          <!--Start task 1-->
-          <div class="task">
-            <input type="checkbox" id="task-1" />
-            <label for="task-1"
-              ><span class="custom-checkbox"></span>first task</label
-            >
-          </div>
-          <!-- Close task 1-->
-          <!--Start task 2-->
-          <div class="task">
-            <input type="checkbox" id="task-2" />
-            <label for="task-2"
-              ><span class="custom-checkbox"></span>second task</label
-            >
-          </div>
-          <!-- Close task 2-->
-          <!--Start task 3-->
-          <div class="task">
-            <input type="checkbox" id="task-3" />
-            <label for="task-3"
-              ><span class="custom-checkbox"></span>third task</label
-            >
-          </div>
-          <!-- Close task 3-->
-        </div>
-        <div class="new-task-creator">
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+      <!-- NAVIGATION MENU ENDS------------------------------------------------------------>
+    </header>
+    <section class="contenido">
+      <span class="all-tasks">
+        <div class="all-tasks">
+          <h2 class="task-list-title">My List</h2>
+          <ul class="task-list">
+            <li class="active-list">Brian Bert</li>
+            <li>Money</li>
+            <li>Study</li>
+            <li>Work</li>
+          </ul>
           <form action="">
             <input
               type="text"
-              class="new task"
-              placeholder="new task name"
-              aria-label="new task name"
+              class="new list"
+              placeholder="new list name"
+              aria-label="new list name"
             />
-            <button class="btn task" aria-label="create new task">+</button>
+            <button class="btn list" aria-label="create new list">+</button>
           </form>
         </div>
-        <div class="delete-stuff">
-          <button class="btn delete">Clear completed task</button>
-          <button class="btn delete">Delete list</button>
+      </span>
+      <div class="todo-list">
+        <div class="todo-header">
+          <h2 class="list-title">Brian Bert</h2>
+          <p class="task-count">3 task remaining</p>
+        </div>
+        <div class="todo-body">
+          <div class="tasks">
+            <!--Start task 1-->
+            <div class="task">
+              <input type="checkbox" id="task-1" />
+              <label for="task-1"
+                ><span class="custom-checkbox"></span>first task</label
+              >
+            </div>
+            <!-- Close task 1-->
+            <!--Start task 2-->
+            <div class="task">
+              <input type="checkbox" id="task-2" />
+              <label for="task-2"
+                ><span class="custom-checkbox"></span>second task</label
+              >
+            </div>
+            <!-- Close task 2-->
+            <!--Start task 3-->
+            <div class="task">
+              <input type="checkbox" id="task-3" />
+              <label for="task-3"
+                ><span class="custom-checkbox"></span>third task</label
+              >
+            </div>
+            <!-- Close task 3-->
+          </div>
+          <div class="new-task-creator">
+            <form action="">
+              <input
+                type="text"
+                class="new task"
+                placeholder="new task name"
+                aria-label="new task name"
+              />
+              <button class="btn task" aria-label="create new task">+</button>
+            </form>
+          </div>
+          <div class="delete-stuff">
+            <button class="btn delete">Clear completed task</button>
+            <button class="btn delete">Delete list</button>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
     <footer id="footer">
       <p>Copyright &copy; 2019 PROJECT-0</p>
       <br />
-      <h6>VERSION 19D28M9-0.10.25</h6>
+      <h6>VERSION 19D4M10-0.11.26</h6>
     </footer>
   </body>
 </html>
